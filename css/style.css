@@ -1,0 +1,230 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Roboto";
+}
+
+img {
+	max-width: 100%;
+}
+
+.parallax{
+  background-image:url("../images/rohan-gangopadhyay-heIaYq6A7tg-unsplash.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.75;
+
+}
+
+.parallax__two{
+  background-image:url("../images/max-bender-8FdEwlxP3oU-unsplash (1).jpg");
+}
+
+.parallax_three{
+  background-image:url("../images/pexels-benjamin-suter-3617449-modified.jpg");
+}
+
+
+
+.navbar_menu{
+  background-color: #000000;
+  height: 40px;
+}
+
+
+
+.navbar_list{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  text-align: center;
+  align-items: center
+}
+
+.navbar_list_item{
+  display: inline-block;
+  padding: 8px;
+}
+
+.navbar_list_item a {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+.navbar_list_item p {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+
+.navbar_list_item a:hover{
+  color: #ffffff;
+}
+
+/*Container stuff */
+.grabber_container{
+  height: 480px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.greeting_title{
+  font-family: "Prata", serif;
+  font-size: 40px;
+  color: #ffffff;
+
+}
+
+.greeting_paragraph{
+color: #ffffff;
+}
+
+.greeting_paragraph_close{
+  margin-top: 30px;
+}
+
+
+
+.category_me_title{
+  color: #ffffff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.category_me_container{
+  padding: 20px 0;
+}
+.category_who-image_container{
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.category_me-image{
+  background-image: url("../images/pexels-daian-gan-102127.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 80%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.category_me-image-two{
+  background-image: url("../images/pexels-olia-danilevich-4974912.jpg");
+}
+
+.category_me-image-three{
+  background-image: url("../images/pexels-designecologist-1779487.jpg");
+
+}
+
+
+.category_me-text_container{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 30px 0 10px 0;
+}
+
+@media (min-width: 375px) {
+  .category_me-description {
+    padding: 10px;
+  }
+
+  .category_me-image{
+    min-height: 250px;
+  }
+}
+
+@media (min-width: 425px) {
+  .category_me-image{
+    min-height: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .category_me-image_container{
+    min-height: 365px;
+  }
+
+  .category_me-image{
+    min-height: 510px;
+  }
+}
+
+
+
+
+
+@media (min-width: 1024px){
+  .category_me-image_container {
+    min-height: 495px;
+    width: 100%;
+  }
+
+  .category_me-image {
+    min-height: 480px;
+  }
+
+  .category_me_container{
+    display:flex;
+  }
+  .category_me_container-alt{
+    flex-direction: row-reverse;
+  }
+
+  .category_me-text_container{
+    width:45%;
+  }
+}
+
+.category_projects_container{
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.category_projects_myList{
+  display: inline-block;
+  text-align: left;
+}
+
+.category_projects_subList{
+  color: #8c8c8c;
+}
+/*///////////////////////////////// */
+/*///////////////////////////////// */
+/*Contact me Area */
+.contact_me_button{
+  color: #ffffff;
+  background-color: #ff3636;
+  border:none;
+  padding: 25px 40px;
+  border-radius: 4px;
+}
+
+.category_contact_container{
+  background-color: #000000;
+  color: #ffffff;
+  height: 100px;
+  width: 30%;
+  border-radius: 20px;
+
+}
